@@ -1,0 +1,10 @@
+const btn = document.getElementById("btn-signal");
+
+btn.addEventListener("click",function(){
+    console.log(window.api.create_Sold_Toronto(
+        PropertyAddress = "1712-125 Redpath Ave",
+        City = "Toronto",
+        State = "Ontario",
+        ZipCode = "M4S 0B5"
+    ));
+})

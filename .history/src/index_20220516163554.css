@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    jus
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    min-height: 100px;
+    min-width: 100px;
+}
